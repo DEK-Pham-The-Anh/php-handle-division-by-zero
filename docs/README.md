@@ -19,7 +19,7 @@ function nanInfToZero($division) {
 	return $division;
 }
 ```
-2. Use the wrapper function for divisons in your php code - https://dek-pham-the-anh.github.io/php-wrapping-function/index1.html.
+2. Use the wrapper function for divisons in your php code - [CONVERTER 1](https://dek-pham-the-anh.github.io/php-handle-division-by-zero/index1.html).
 
 
 #### Examples
@@ -33,7 +33,7 @@ PHP 8 returns an error whenever you try to divide by zero. Thus, it's necessary 
 
 ### Method 1 - Ternary operators
 
-If you have only few cases of division in your code, you could use a ternary operators to check if the divisor is zero - https://dek-pham-the-anh.github.io/php-wrapping-function/index2.html 
+If you have only few cases of division in your code, you could use a ternary operators to check if the divisor is zero - [CONVERTER 2](https://dek-pham-the-anh.github.io/php-handle-division-by-zero/index2.html).
 
 
 #### Examples
@@ -54,7 +54,7 @@ function safeDiv($dividend, $divisor, $result = 0) {
 	return $dividend / $divisor;
 }
 ```
-2. Use the wrapper function for divisons in your php code - https://dek-pham-the-anh.github.io/php-wrapping-function/index3.html.
+2. Use the wrapper function for divisons in your php code - [CONVERTER 3](https://dek-pham-the-anh.github.io/php-handle-division-by-zero/index3.html).
 
 
 #### Examples
