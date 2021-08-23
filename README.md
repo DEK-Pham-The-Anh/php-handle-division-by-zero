@@ -42,7 +42,7 @@ If you have only few cases of division in your code, you could use a ternary ope
 
 ### Method 2 - Wrapper function
 
-If you have many cases of division in your code, you could use a global wrapper function bypass `PHP 8`'s error reporting.
+If you have many cases of division in your code, you could use a global wrapper function to bypass `PHP 8`'s error reporting.
 
 1. Create a wrapper function in php - for example:
 ```
